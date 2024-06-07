@@ -27,8 +27,7 @@ packer.startup(function(use)
 	-- lualine --
 	use {'nvim-lualine/lualine.nvim',requires = {'kyazdani42/nvim-web-devicons', opt = true}}
 	-- telescope --
-	use {'nvim-telescope/telescope.nvim',
-	requires = {{'nvim-lua/plenary.nvim'},{'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }}}
+	use {'nvim-telescope/telescope.nvim',requires = {{'nvim-lua/plenary.nvim'},{'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }}}
 
 	-- nvim-cmp --
   	use 'hrsh7th/cmp-nvim-lsp' -- { name = nvim_lsp }
@@ -46,5 +45,7 @@ packer.startup(function(use)
 	-- lsp --
 	use 'neovim/nvim-lsp'
 	use 'neovim/nvim-lspconfig'
+
+
 
 end)

@@ -1,3 +1,8 @@
+1. git pull origin main
+2. git add .
+3. git commit -m "n commit"
+4. git push origin main
+
 .config
     |- nvim
         |- init.lua

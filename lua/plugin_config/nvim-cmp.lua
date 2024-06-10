@@ -22,7 +22,7 @@ cmp.setup {
   sources = cmp.config.sources({
     { name = 'nvim_lsp' , keyword_length = 2},
     -- For vsnip users.
-    { name = 'vsnip' ,keyword_length = 1},
+    { name = 'vsnip' ,keyword_length = 2},
     -- For luasnip users.
     -- { name = 'luasnip' },
     --For ultisnips users.
